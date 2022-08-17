@@ -190,4 +190,8 @@ router.post('/logout', async (req, res) => {
     res.end("successfully deleted session")
 })
 
+router.get('/', async (req, res) => {
+    res.end("just some home page")
+})
+
 module.exports = router;
